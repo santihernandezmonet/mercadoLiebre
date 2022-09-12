@@ -4,11 +4,34 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+   
+}
+
+.main-header {
     background-color: #eac926;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.hamburguer-button {
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
 }
 
 .cuerpo-texto {
     font-size: 12px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .titulares {
@@ -23,6 +46,21 @@ body {
     font-size: 16px;
 }
 
-#icono {
-    width: 20px;
+.menu {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+
 }
