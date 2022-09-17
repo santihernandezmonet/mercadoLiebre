@@ -6,8 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-   
-   
+
 }
 .main-header {
     background-color:  #EAC926;
@@ -80,6 +79,10 @@ body {
 
 }
 @media (min-width: 1200px) {
+    main {
+        background-color: #ebebeb;
+    }    
+
     .logo{
         width: 250px;
     }
@@ -104,7 +107,19 @@ body {
         max-width: none;
         font-size: 18px;
         font-weight: 400;
-        margin: 0;
-       
+        margin: 0;      
+    }
+    .imagen-banner {
+        width: 100%;
+    }
+    .img-articulos {
+        width: 50%;
+    }
+
+    .articulos {
+        width: 100%;
+        border: red 1px solid;
+        display: flex;
+        
     }
 }
