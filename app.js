@@ -16,6 +16,14 @@ app.get('/', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/index.html'));
 });
 
+app.get('/views/register.html', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/register.html'));
+});
+
+app.get('/views/login.html', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/login.html'));
+});
+
 app.use(express.static(path.resolve(__dirname, './public')));
 
 
